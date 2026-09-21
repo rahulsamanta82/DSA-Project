@@ -337,8 +337,9 @@ class Registrar{
 //-----------------------------------------------------------------------------
 		void addNewCourse(); 		//Add the new Course
 		void displayAllCourse();	//Display all Course
-		void removeCourse();		//Remove the Course
-		void searchCourse();		//Search the Course
+		void removeCourse();		
+		void searchCourse();		
+		void searchCourse();
 //-----------------------------------------------------------------------------
 		~Registrar(){				//Registrar Destructor 
     		Student* current1 = first;
