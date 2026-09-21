@@ -869,6 +869,9 @@ public:
         else if (choice == 5) {
             gapAnalyzer();
         }
+        else if (choice == 5) {
+            gapAnalyzer();
+        }
         else if (choice == 6) {
             std::cout << "Exiting system...\n";
             exit(0);
