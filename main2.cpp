@@ -19,7 +19,14 @@ struct UserData {
     char field4[50];
     char advice[100];
 };
-
+struct UserData {
+    char role[20];
+    char field1[50];
+    char field2[50];
+    char field3[50];
+    char field4[50];
+    char advice[100];
+};
 struct Job {
     char title[50];
     int expRequired;
