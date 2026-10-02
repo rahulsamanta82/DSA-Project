@@ -136,6 +136,12 @@ class Course: public Person{
 		string getCourse(){
 			return addCourse;
 		}
+		string getCourse(){
+			return addCourse;
+		}
+		string getCourse(){
+			return addCourse;
+		}
 		double getCosId(){
 			return ID;	
 		}
