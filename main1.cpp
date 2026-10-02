@@ -296,6 +296,10 @@ class Registrar{
 		void displayAllProfessor();		//Display all Professor
 		void removeProfessor();			//Remove the professor
 		void searchProfessor();			//Search the Professor
+		void addNewProfessor(); 		//Add the new professor
+		void displayAllProfessor();		//Display all Professor
+		void removeProfessor();			//Remove the professor
+		void searchProfessor();			//Search the Professor
 		void push_pro(Professor* value) {			//push professor in stack
       		Professor* newNode = new Professor;
       		newNode = value;
