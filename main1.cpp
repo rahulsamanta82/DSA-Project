@@ -206,7 +206,6 @@ class Registrar{
     		if(current1!=nullptr && current1->getStdId()==num){
 	        	first=current1->next1;
 	        	push_std(current1);
-//    	    	delete current1;
         		cout<<"\n\t\t\tStudent with ID "<<num<<" removed successfully."<<endl;
 				return;
 	   		}
@@ -245,7 +244,7 @@ class Registrar{
     	bool isEmpty_std() {						//if stack is empty
         	return top == NULL;
     	}
-    	void TOP_std(){                   //stack top print student
+    	void TOP_std(){                  
         if (isEmpty_std()) {
             cout << "\n\t\t\tStack is empty."<< endl;
             return; 
@@ -291,7 +290,7 @@ class Registrar{
 			}
 			return;
 		}
-//-----------------------------------------------------------------------------
+
 		void addNewProfessor(); 		//Add the new professor
 		void displayAllProfessor();		//Display all Professor
 		void removeProfessor();			//Remove the professor
@@ -301,6 +300,15 @@ class Registrar{
 		void removeProfessor();			//Remove the professor
 		void searchProfessor();			//Search the Professor
 		void push_pro(Professor* value) {			//push professor in stack
+		void addNewProfessor(); 		//Add the new professor
+		void displayAllProfessor();		//Display all Professor
+		void removeProfessor();			//Remove the professor
+		void searchProfessor();			//Search the Professor
+		void addNewProfessor(); 		//Add the new professor
+		void displayAllProfessor();		//Display all Professor
+		void removeProfessor();			//Remove the professor
+		void searchProfessor();			//Search the Professor
+		void push_pro(Professor* value) {	
       		Professor* newNode = new Professor;
       		newNode = value;
         	newNode->next2_pro = top1;
